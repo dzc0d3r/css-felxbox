@@ -16,24 +16,18 @@ body {
 .flex-container {
     display: flex;
     background: #fff;
-    
 }
 
 .box {
     height: 100px;
     min-width: 100px;
-    
 }
 .one {
    background: red;
-   flex-grow: 1;
-
 }
 .two {
     background: blue;
-    flex-grow: 2;
 }
 .three {
     background: green;
-    flex-grow: 3;
 }
