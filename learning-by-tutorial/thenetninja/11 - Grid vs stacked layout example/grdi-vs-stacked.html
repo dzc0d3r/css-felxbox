@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="#">home</a> </li>
+                <li><a href="#">about</a> </li>
+                <li><a href="#">store</a> </li>
+                <li><a href="#">contact</a> </li>
+            </ul>
+            <ul class="social">
+                <li><a href="#"
+                        class="fb">Facebook</a< /li>
+                <li><a href="#"
+                        class="tw">Twitter</a></li>
+
+            </ul>
+        </nav>
+        <div style="margin: 20px">
+            <span>Layout : </span>
+            <a href="#"
+                class="stacked">stack</a>
+            <a href="#"
+                class="grid">grid</a>
+
+        </div>
+        <section id="blocks">
+            <article>
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis maxime eos
+                    voluptatum animi numquam error eaque in ex sit!
+                </p>
+            </article>
+            <article>
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis maxime eos
+                    voluptatum
+                    animi numquam
+                    error eaque in ex sit!
+                </p>
+            </article>
+            <article>
+
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, perferendis maxime eos
+                    voluptatum
+                    animi numquam
+                    error eaque in ex sit!
+                </p>
+            </article>
+            <article>
+
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore natus molestiae consequuntur
+                    culpa officiis reprehenderit, ea iste est repellat laudantium dolorum vel, itaque qui a modi ducimus
+                    odit non fuga!
+                </p>
+            </article>
+            <article>
+                <h2>
+                    Lorem ipsum dolor sit amet.
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro tenetur architecto, laudantium veniam
+                    impedit reiciendis.
+                </p>
+            </article>
+            <article>
+                <h2>Lorem, ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem harum nostrum veniam porro, tempora
+                    optio molestias magni quidem rem eos numquam at perspiciatis odit officia est soluta! Consectetur
+                    perspiciatis illum ab, praesentium voluptas, debitis aliquam sequi minus laudantium rerum sapiente
+                    iusto qui fugit animi obcaecati ratione fuga dolorum autem mollitia!</p>
+            </article>
+        </section>
+
+
+
+    </div>
+    <script src="js/jquery.js"></script>
+    <script>
+        $("a.stacked").on("click", function () {
+            $("article").addClass('stack');
+
+        });
+        $("a.grid").on("click", function () {
+            $("article").removeClass("stack");
+
+        });
+    </script>
+</body>
+
+</html>
