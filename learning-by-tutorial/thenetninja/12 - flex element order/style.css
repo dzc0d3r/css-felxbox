@@ -1,0 +1,34 @@
+
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+body {
+    color: #333;
+    background: #eee;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 968px;
+}
+
+#blocks {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+
+}
+#blocks div {
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc;
+}
+.one { order :4 ; }
+.two { order :3 ; }
+.three { order :1 ; }
+.four { order :2 ; }
+
